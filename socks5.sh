@@ -112,7 +112,7 @@ port_exist_check() {
 
 bbr_install() {
     [ -f "tcp.sh" ] && rm -rf ./tcp.sh
-    wget -O tcp.sh --no-check-certificate "https://raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+    wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh 
 
 }
 
@@ -256,7 +256,7 @@ menu() {
     echo -e "\t---authored by zhangyu---"
     echo -e "\thttps://www.zhangyu.ml"
     echo -e "\tSystem Request:Debian 9+/Ubuntu 20.04+/Centos 7+"
-    echo -e "\t无法使用请联系1853479098@qq.com\n"
+    echo -e "\t无法使用请联系TG @moneyfly1987\n"
 
     echo -e "—————————————— 安装向导 ——————————————"
     echo -e "${Green} 欢迎加入TG群@moneyflychat ${Font}"
