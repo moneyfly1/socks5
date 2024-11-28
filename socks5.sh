@@ -112,7 +112,7 @@ port_exist_check() {
 
 bbr_install() {
     [ -f "tcp.sh" ] && rm -rf ./tcp.sh
-    wget -N --no-check-certificate "https://raw.githubusercontent.com/moneyfly1/socks5/refs/heads/main/tcp.sh" && chmod +x tcp.sh && ./tcp.sh 
+    wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh 
 
 }
 
