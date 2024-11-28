@@ -1,4 +1,5 @@
 socks5 一键搭建代码 bash <(curl -sL https://raw.githubusercontent.com/moneyfly1/socks5/main/socks5.sh)
+如果上面代码失效，请使用别的大佬编写的代码 
 # nps-socks5服务一键搭建脚本
 - [x] 稳定版V3.0
 
